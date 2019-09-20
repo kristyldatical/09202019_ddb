@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="Git-09202019" storedLogicExternal="true" deployThreshold="stopOnError" projectsId="996b29b5-011b-43ba-a4f8-eb49ff300ae5" runtimeCredentials="false" multiSchema="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="TRACKINGTEST09202019AA" enableRowCount="disabled" multiCatalog="false" lastEdited="2019-09-20T20:02:49.756Z">
+  <dbDefs xsi:type="dbproject:OracleDbDef" name="REF" driver="oracle.jdbc.OracleDriver" hostname="oracleee-12-primary-kristylrds-1-01.cxzzhukwefee.us-east-1.rds.amazonaws.com" port="1521" username="daticalmaster" password="ZGF0aWNhbG1hc3Rlcg==" dbDefsId="d93a0453-a9a3-381c-8f5f-003126723c60" serviceName="orcl" enableCompression="false" rowsPerBatch="10000" useWallet="false"/>
+  <plans name="Git-09202019" databaseDefs="//@dbDefs[name='REF']" plansId="87602888-a3c2-3934-85c6-515d620626bd"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+  <schemas name="TESTSCHEMA09202019AA"/>
+  <schemas name="TESTSCHEMA09202019BB"/>
+</dbproject:Project>
